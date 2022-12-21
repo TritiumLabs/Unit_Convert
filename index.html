@@ -21,18 +21,17 @@
 <h1>Unit Converter<h1>
 </center>
 <form oninput="result.value=parseFloat(a.value)*parseFloat(c.value)">
-  <label>Meters</label>
-<input type="number" id="a" name="a" value="1" step="any"
-size="10" placeholder="Meters">
-<input type="hidden" id="b" name="b" step="any" value=document.GetEmlementById("unit-select").value>=
-<label>Yards</label>
-<output name="result" step="any" for="a c"></output>
-<label for="unit">Choose a unit:</label>
+ <label for="unit">Choose a unit:</label>
 <select name="unit-select" id="c">
     <option value="0">--Please choose an option--</option>
     <option value="1760">Miles</option>
     <option value="0.33">Feet</option>
     <option value="0.03">Inches</option>
+<input type="number" id="a" name="a" value="1" step="any"
+size="10" placeholder="Meters">
+<input type="hidden" id="b" name="b" step="any" value=document.GetEmlementById("unit-select").value>=
+<label>Yards</label>
+<output name="result" step="any" for="a c"></output>
     <option value="0.01">Centimmeters</option>
     <option value="1.094">Meters</option>
     <option value="1096">Kilometers</option>
