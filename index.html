@@ -25,11 +25,11 @@
   <input type="text" id="fname" name="fname"><br>
   <p><math>value*0.98</math></p>
 </form>  
-<form oninput="result.value=parseInt(Meters.value)+parseInt(b.value)">
-<input type="number" id="Meters" name="Meters" value="1"
+<form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+<input type="number" id="a" name="Meters" value="1"
 size="10" placeholder="Meters">
 <input type="hidden" id="b" name="b" value="0.98"
-<output name="result" for="Meters b">0.98</output>
+<output name="result" step="0.01" for="a b">0.98</output>
 </form>
 </body>
 </html>
